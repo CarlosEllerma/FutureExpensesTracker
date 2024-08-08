@@ -2,7 +2,7 @@
 export default function Registration() {
     return (
       <main>
-        This is Registraton
+<h1>Hello</h1>
       </main>
     );
   }
