@@ -20,7 +20,7 @@ export default function email() {
         <Card className="w-[350px]">
           <CardHeader>
             <CardTitle>Register Account</CardTitle>
-            <CardTitle className="text-lg"> Enter Personal Details </CardTitle>
+            <CardTitle className="text-lg"> Enter Personal Details </CardTitle  >
           </CardHeader>
           <CardContent>
             <form>
