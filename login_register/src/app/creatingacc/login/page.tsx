@@ -17,8 +17,7 @@ export default function Login() {
       <div className="flex justify-center pt-16">
         <Card className="w-[350px]">
           <CardHeader>
-            <CardTitle>Register Account</CardTitle>
-            <CardTitle className="text-lg"> Enter Personal Details </CardTitle>
+            <CardTitle>Login</CardTitle>
           </CardHeader>
           <CardContent>
             <form>
@@ -28,25 +27,19 @@ export default function Login() {
                   <Input id="Username" placeholder="Enter username" />
                 </div>
                 <div className="flex flex-col space-y-1.5">
-                  <Label htmlFor="name">Username:</Label>
-                  <Input id="Username" placeholder="Enter username" />
-                </div>
-                <div className="flex flex-col space-y-1.5">
                   <Label htmlFor="name">Password:</Label>
                   <Input id="name" placeholder="Enter password" />
-                </div>
-                <div className="flex flex-col space-y-1.5">
-                  <Label htmlFor="name">Confirm Password:</Label>
-                  <Input id="password" placeholder="Confirm password" />
                 </div>
               </div>
             </form>
           </CardContent>
           <CardFooter className="flex justify-between">
-            <Link href="/registration">
+            <Link href="/">
               <Button variant="outline">Back</Button>
             </Link>
+            <Link href="/dashboard">
             <Button>Submit</Button>
+            </Link>
           </CardFooter>
         </Card>
       </div>
